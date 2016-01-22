@@ -1,0 +1,9 @@
+---
+
+# Main host configuration file
+
+- hosts: test-lh
+  user: osboxes
+  sudo: yes
+  roles:
+  - createvms

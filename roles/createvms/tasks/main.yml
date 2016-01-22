@@ -1,0 +1,6 @@
+---
+
+# Create new VM's from base image
+
+- name: Running scrip file to create VM's
+  command: sh ../files/clonevms.sh
